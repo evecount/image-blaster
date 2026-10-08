@@ -863,6 +863,7 @@ function worldsPlugin(): Plugin {
 }
 
 export default defineConfig({
+  base: process.env.BASE_URL || (process.env.GITHUB_PAGES ? '/image-blaster/' : '/'),
   plugins: [react(), worldsPlugin()],
   server: { fs: { allow: ['..'] } },
 })
