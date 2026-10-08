@@ -92,7 +92,7 @@ export function SplatRenderer({
     }, [])
 
     useEffect(() => {
-      if (sparkRef.current) sparkRef.current.encodeLinear = encodeLinear
+      if (sparkRef.current) (sparkRef.current as any).encodeLinear = encodeLinear
     }, [encodeLinear])
 
     const sparkArgs = useMemo(() => ({ renderer, enableLod: true, encodeLinear: initialEncodeLinear.current }), [renderer])
