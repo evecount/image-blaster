@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "world": "loft-studio",
+  "object": {
+    "id": "large-potted-floor-plant",
+    "name": "large potted floor plant",
+    "description": "Dense bushy indoor floor plant with broad dark green leaves housed in a cylindrical dark gray pot.",
+    "count_estimate": 1,
+    "materials": ["ceramic pot", "living plant foliage"],
+    "source_images": ["worlds/loft-studio/source/0-loft-studio.png"],
+    "evidence": [
+      {
+        "image": "worlds/loft-studio/source/0-loft-studio.png",
+        "location_in_image": "foreground lower left corner"
+      }
+    ],
+    "generate_as_3d_object": true
+  }
+}

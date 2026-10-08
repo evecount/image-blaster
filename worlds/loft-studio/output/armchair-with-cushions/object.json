@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "world": "loft-studio",
+  "object": {
+    "id": "armchair-with-cushions",
+    "name": "armchair with cushions",
+    "description": "Low wooden-framed armchair with neutral gray upholstery, an accent bright yellow rectangular pillow, and a beige lumbar pillow.",
+    "count_estimate": 1,
+    "materials": ["wood", "woven fabric", "upholstery foam"],
+    "source_images": ["worlds/loft-studio/source/0-loft-studio.png"],
+    "evidence": [
+      {
+        "image": "worlds/loft-studio/source/0-loft-studio.png",
+        "location_in_image": "foreground right"
+      }
+    ],
+    "generate_as_3d_object": true
+  }
+}

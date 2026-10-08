@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "world": "loft-studio",
+  "object": {
+    "id": "vintage-electric-desk-fan",
+    "name": "vintage electric desk fan",
+    "description": "Black circular vintage electric fan with wire cage guard positioned on a low radiator shelf.",
+    "count_estimate": 1,
+    "materials": ["black metal", "wire mesh"],
+    "source_images": ["worlds/loft-studio/source/0-loft-studio.png"],
+    "evidence": [
+      {
+        "image": "worlds/loft-studio/source/0-loft-studio.png",
+        "location_in_image": "center back on the shelf beneath the large window"
+      }
+    ],
+    "generate_as_3d_object": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "world": "loft-studio",
+  "object": {
+    "id": "shallow-decorative-bowl",
+    "name": "shallow decorative bowl",
+    "description": "Metallic or glazed ceramic wide shallow bowl or dish sitting atop the side table.",
+    "count_estimate": 1,
+    "materials": ["glazed ceramic or polished metal"],
+    "source_images": ["worlds/loft-studio/source/0-loft-studio.png"],
+    "evidence": [
+      {
+        "image": "worlds/loft-studio/source/0-loft-studio.png",
+        "location_in_image": "resting on top of the round side table"
+      }
+    ],
+    "generate_as_3d_object": true
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "world": "loft-studio",
+  "source_images": [
+    "worlds/loft-studio/source/0-loft-studio.png"
+  ],
+  "scene_name": "Cozy Attic Loft Studio with String Lights and Plants",
+  "short_caption": "A warm, wood-paneled creative loft filled with hanging Edison bulbs, string fairy lights, and lush potted indoor plants.",
+  "literal_description": "A warm attic loft featuring exposed wooden ceiling beams and dark hardwood flooring. Multiple strands of warm fairy lights and hanging exposed-filament Edison bulbs illuminate the room with an amber glow. A large white-framed grid window stands at the far wall overlooking an evening exterior with blurred light reflections. Dense clusters of vibrant potted houseplants, including large peace lilies or cast iron plants, fiddle leaf figs, climbing golden pothos vines wrapped around a wooden support pillar, and potted monsteras, line the perimeter. An industrial vertical metal riser pipe stands on the left. In the foreground right, an armchair with a golden-yellow and beige cushion sits next to a small round dark wooden accent table holding a shallow ceramic or metallic bowl.",
+  "environment": "Indoor creative loft studio with wooden post-and-beam architecture, hardwood flooring, brick accent wall, and a large rear window.",
+  "visual_style": "photorealistic, warm, atmospheric interior, cinematic lighting",
+  "lighting": "Warm ambient glow from numerous hanging Edison incandescent bulbs and crisscrossing string lights, low cool fill from the rear evening window, soft deep shadows under furniture.",
+  "atmosphere": "Cozy, tranquil, warm indoor air with gentle amber illumination and no visible haze or smoke.",
+  "ambient_sound": "Faint warm hum of electrical filaments, soft distant nocturnal city ambiance outside the window, subtle rustle of indoor foliage, quiet acoustic room presence.",
+  "objects": [
+    {
+      "id": "armchair-with-cushions",
+      "name": "armchair with cushions",
+      "description": "Low wooden-framed armchair with neutral gray upholstery, an accent bright yellow rectangular pillow, and a beige lumbar pillow.",
+      "count_estimate": 1,
+      "materials": [
+        "wood",
+        "woven fabric",
+        "upholstery foam"
+      ],
+      "source_images": [
+        "worlds/loft-studio/source/0-loft-studio.png"
+      ],
+      "evidence": [
+        {
+          "image": "worlds/loft-studio/source/0-loft-studio.png",
+          "location_in_image": "foreground right"
+        }
+      ],
+      "generate_as_3d_object": true
+    },
+    {
+      "id": "round-wooden-side-table",
+      "name": "round wooden side table",
+      "description": "Small circular dark-stained wooden side table with a smooth flat top surface.",
+      "count_estimate": 1,
+      "materials": [
+        "dark stained wood"
+      ],
+      "source_images": [
+        "worlds/loft-studio/source/0-loft-studio.png"
+      ],
+      "evidence": [
+        {
+          "image": "worlds/loft-studio/source/0-loft-studio.png",
+          "location_in_image": "foreground lower right, next to the armchair"
+        }
+      ],
+      "generate_as_3d_object": true
+    },
+    {
+      "id": "shallow-decorative-bowl",
+      "name": "shallow decorative bowl",
+      "description": "Metallic or glazed ceramic wide shallow bowl or dish sitting atop the side table.",
+      "count_estimate": 1,
+      "materials": [
+        "glazed ceramic or polished metal"
+      ],
+      "source_images": [
+        "worlds/loft-studio/source/0-loft-studio.png"
+      ],
+      "evidence": [
+        {
+          "image": "worlds/loft-studio/source/0-loft-studio.png",
+          "location_in_image": "resting on top of the round side table"
+        }
+      ],
+      "generate_as_3d_object": true
+    },
+    {
+      "id": "large-potted-floor-plant",
+      "name": "large potted floor plant",
+      "description": "Dense bushy indoor floor plant with broad dark green leaves housed in a cylindrical dark gray pot.",
+      "count_estimate": 1,
+      "materials": [
+        "ceramic pot",
+        "living plant foliage"
+      ],
+      "source_images": [
+        "worlds/loft-studio/source/0-loft-studio.png"
+      ],
+      "evidence": [
+        {
+          "image": "worlds/loft-studio/source/0-loft-studio.png",
+          "location_in_image": "foreground lower left corner"
+        }
+      ],
+      "generate_as_3d_object": true
+    },
+    {
+      "id": "vintage-electric-desk-fan",
+      "name": "vintage electric desk fan",
+      "description": "Black circular vintage electric fan with wire cage guard positioned on a low radiator shelf.",
+      "count_estimate": 1,
+      "materials": [
+        "black metal",
+        "wire mesh"
+      ],
+      "source_images": [
+        "worlds/loft-studio/source/0-loft-studio.png"
+      ],
+      "evidence": [
+        {
+          "image": "worlds/loft-studio/source/0-loft-studio.png",
+          "location_in_image": "center back on the shelf beneath the large window"
+        }
+      ],
+      "generate_as_3d_object": true
+    },
+    {
+      "id": "woven-basket-planter",
+      "name": "woven basket planter",
+      "description": "Medium-sized indoor plant resting inside a natural woven fiber or wicker planter basket.",
+      "count_estimate": 1,
+      "materials": [
+        "wicker or woven jute basket",
+        "foliage"
+      ],
+      "source_images": [
+        "worlds/loft-studio/source/0-loft-studio.png"
+      ],
+      "evidence": [
+        {
+          "image": "worlds/loft-studio/source/0-loft-studio.png",
+          "location_in_image": "rear left near the window sill"
+        }
+      ],
+      "generate_as_3d_object": true
+    }
+  ]
+}
